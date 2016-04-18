@@ -1,0 +1,40 @@
+<html>
+<body>
+
+<input type="text" id="x"/>
+<input type="button"  value="start"/>
+
+
+<script>
+var h=2;
+var m=55;
+t=setInterval("zz()",2000);
+
+var myDate = new Date( ) ;
+
+	
+
+function zz()	
+{
+m++;
+
+if(m==60){
+h++;m=00;
+
+}
+
+y=document.getElementById("x");
+		//alert(h+":"+m);
+y.value=h+":"+m;
+
+}
+	
+
+
+</script>
+
+
+
+
+</body>
+</html>

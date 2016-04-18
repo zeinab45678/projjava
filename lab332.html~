@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+
+
+var date = prompt(" r");
+if(date=="r")
+{
+document.write("<h4 style=color:red>"+Date()+"</h4>");}
+
+
+
+
+
+</script>
+
+</body>
+</html>
+

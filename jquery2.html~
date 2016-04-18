@@ -1,0 +1,77 @@
+<html><head>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+
+
+<script>
+var i=0;
+$(document).ready(function(){
+    $("#f").click(function(){
+       $("#f1").click(function(){
+        $("#f1").fadeTo("slow", 0.4);
+
+ $("#f").fadeTo("slow", 0.4 );
+
+ i++ ; 
+$("#xx").val(i);
+     
+        
+    });
+});$("#a").click(function(){
+       $("#a1").click(function(){
+        $("#a1").fadeTo("slow", 0.4);
+
+ $("#a").fadeTo("slow", 0.4 );
+
+ i++ ; 
+$("#xx").val(i);
+     
+});
+});
+
+$("#e").click(function(){
+       $("#e1").click(function(){
+        $("#e1").fadeTo("slow", 0.4);
+
+ $("#e").fadeTo("slow", 0.4 );
+
+ i++ ; 
+$("#xx").val(i);
+     
+});
+});
+
+$("#m").click(function(){
+       $("#m1").click(function(){
+        $("#m1").fadeTo("slow", 0.4);
+
+ $("#m").fadeTo("slow", 0.4 );
+
+ i++ ; 
+$("#xx").val(i);
+if(i==4){i=0};
+     
+});
+});
+});
+</script>
+</head>
+<body>
+<div>
+<img id="a" src="app.jpg"width="200px",heigth="200px" class="c1">
+<img id="e" src="enab.png"width="200px",heigth="200px"class="c2">
+<img id="f" src="fraw.jpeg"width="200px",heigth="200px"class="c3">
+<img id="m" src="manga.jpeg"width="200px",heigth="200px"class="c4">
+</div>
+<div>
+<img id="f1" src="fraw.jpeg"width="200px",heigth="200px"class="c3">
+<img id="m1"src="manga.jpeg"width="200px",heigth="200px"class="c4">
+<img id="a1"src="app.jpg"width="200px",heigth="200px"class="c1">
+<img id="e1" src="enab.png"width="200px",heigth="200px"class="c2">
+</div>
+<div>
+<b>score<b><input  id="xx" type="text" style="width :70;height:70" >
+</div>
+
+
+</body>
+</html>

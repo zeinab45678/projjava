@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="ze"></p>
+<script>
+ 
+ x =['hello', 'welcom', 'hi'];
+
+
+for(i=0;i<=2;i++)
+{
+
+alert(x[i]);
+}
+</script>
+
+</body>
+</html>
+
+

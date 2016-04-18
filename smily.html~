@@ -1,0 +1,39 @@
+<html> 
+<head>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+
+
+<script>
+$(document).ready(function(){
+    $("#ss").mouseover(function(){
+        
+$("#ss").attr("src", "smiley-face.jpg");
+    });
+    $("#ss").mouseout(function(){
+        
+$("#ss").attr("src", "sad.jpg");
+    });
+});
+</script>
+<style>
+ .aa{
+   
+width:100px;
+}
+.bb{
+    
+width:300px;
+}
+
+</style>
+
+
+
+</head>
+<body>
+
+<img id="ss" src="smiley-face.jpg"/>
+
+
+</body>
+</html>

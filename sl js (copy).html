@@ -1,0 +1,45 @@
+<html>
+
+<body>
+<p id="demo"></p>
+
+<button onclick="myStopFunction()">Stop time</button>
+
+<div class="w3-content" style="max-width:800px;position:relative">
+
+<img class="mySlides" src="sssssss.jpg" style="width:100%">
+<img class="mySlides" src="z2.jpeg" style="width:100%">
+<img class="mySlides" src="z3.jpg" style="width:100%">
+<img class="mySlides" src="z4.jpg" style="width:100%">
+
+<a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)"><input type="submit" value="next"/></a>
+<a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)"><input type="submit" value="breviuos"/></a>
+
+</div>
+<script>
+var myVar = setInterval(function(){plusDivs(n)  }, n);
+
+var slideIndex = 1;
+
+
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html> 
+

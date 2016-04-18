@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+
+
+var date = prompt(" enter the date");
+
+function myFunction() {
+    var d = new Date();
+    var n = d.toDateString();
+
+ var str = "DD-MM-YYY";
+    var res = str.charAt(2)
+    document.getElementById("demo").innerHTML = res;
+}
+   
+
+</script>
+
+
+
+
+
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,22 @@
+</html>
+
+
+
+<body>
+	<form>
+		<input type="text" name='b1' value="enter text" 
+onchange="fun(event)"/>
+	</form>
+</body>
+<script>
+function time (x)
+	function fun (y)
+	{
+		alert(y.type)
+	}window.setTimeOut(x, 2000)
+	
+	
+</script>
+
+
+</html>
